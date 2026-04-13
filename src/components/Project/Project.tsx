@@ -373,3 +373,164 @@ export function Project() {
     </Container>
   );
 }
+
+
+
+
+
+
+
+
+
+// import { Container } from "./styles";
+// import { motion } from "framer-motion";
+// import githubIcon from "../../assets/github.svg";
+
+// export function Project() {
+
+//   const fadeUp = {
+//     hidden: { opacity: 0, y: 60 },
+//     show: {
+//       opacity: 1,
+//       y: 0,
+//       transition: { duration: 0.6 }
+//     }
+//   };
+
+//   const container = {
+//     hidden: {},
+//     show: {
+//       transition: {
+//         staggerChildren: 0.2
+//       }
+//     }
+//   };
+
+//   return (
+//     <Container id="project">
+      
+//       <motion.h2
+//         initial={{ opacity: 0, y: 40 }}
+//         whileInView={{ opacity: 1, y: 0 }}
+//         transition={{ duration: 0.6 }}
+//         viewport={{ once: true }}
+//       >
+//         My Projects
+//       </motion.h2>
+
+//       <motion.div
+//         className="projects"
+//         variants={container}
+//         initial="hidden"
+//         whileInView="show"
+//         viewport={{ once: true }}
+//       >
+
+//         {/* Project Card */}
+//         <motion.div className="project" variants={fadeUp}>
+//           <header>
+//             <svg width="50" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1">
+//               <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+//             </svg>
+//             <div className="project-links">
+//               <a href="https://github.com/Vikalp71/New-Year-Count-Down" target="_blank" rel="noreferrer">
+//                 <img src={githubIcon} alt="GitHub" />
+//               </a>
+//             </div>
+//           </header>
+//           <div className="body">
+//             <h3>New Year Countdown</h3>
+//             <p> The New Year Countdown Project is more than just a celebration; it's a testament to the human 
+//                spirit and our shared aspirations for a brighter future. So, mark your calendars and get ready 
+//                 to be part of this global extravaganza as we count down to a new year filled with endless possibilities..</p>
+//           </div>
+//         </motion.div>
+
+//         {/* Project Card */}
+//         <motion.div className="project" variants={fadeUp}>
+//           <header>
+//             <svg width="50" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1">
+//               <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+//             </svg>
+//             <div className="project-links">
+//               <a href="https://github.com/Vikalp71/CRM-DASHBOARD" target="_blank" rel="noreferrer">
+//                 <img src={githubIcon} alt="GitHub" />
+//               </a>
+//             </div>
+//           </header>
+//           <div className="body">
+//             <h3>CRM Dashboard</h3>
+//             <p>CRM Dashboard is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js,
+//                Node.js) to manage leads and business data efficiently.The application provides secure user 
+//                authentication, lead management, and a responsive dashboard interface that allows users to create, 
+//                update, delete, and track leads in real-time.It follows a clean architecture with RESTful APIs, 
+//                JWT-based authentication, and protected routes to ensure secure data handling and smooth user experience.</p>
+//           </div>
+//         </motion.div>
+
+//         {/* Project Card */}
+//         <motion.div className="project" variants={fadeUp}>
+//           <header>
+//             <svg width="50" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1">
+//               <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+//             </svg>
+//             <div className="project-links">
+//               <a href="https://github.com/Vikalp71/Tasty-Treats" target="_blank" rel="noreferrer">
+//                 <img src={githubIcon} alt="GitHub" />
+//               </a>
+//             </div>
+//           </header>
+//           <div className="body">
+//             <h3>Tasty Treats</h3>
+//             <p>  Tasty-Treats is a responsive food delivery web application where users 
+//             can browse food items like pizza, burgers, and pasta. It provides a clean and 
+//               user-friendly interface to view food details and prices. The project is built 
+//                using React.js with reusable components and a responsive design for smooth use on all devices..</p>
+//           </div>
+//         </motion.div>
+
+//         {/* Project Card */}
+//         <motion.div className="project" variants={fadeUp}>
+//           <header>
+//             <svg width="50" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1">
+//               <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+//             </svg>
+//             <div className="project-links">
+//               <a href="https://github.com/Vikalp71/Animation-Website" target="_blank" rel="noreferrer">
+//                 <img src={githubIcon} alt="GitHub" />
+//               </a>
+//             </div>
+//           </header>
+//           <div className="body">
+//             <h3>Animation Website</h3>
+//             <p>We are a creative animation studio specializing in 2D animation, 3D animation, motion graphics, and video production.
+//             Our goal is to transform ideas into visually stunning animations that help businesses grow and engage their audience.
+//              With modern tools and creative storytelling, we deliver high-quality animation solutions for websites, ads, and social media.</p>
+//           </div>
+//         </motion.div>
+
+//         {/* Project Card */}
+//         <motion.div className="project" variants={fadeUp}>
+//           <header>
+//             <svg width="50" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1">
+//               <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+//             </svg>
+//             <div className="project-links">
+//               <a href="https://github.com/Vikalp71/Kanban-Application" target="_blank" rel="noreferrer">
+//                 <img src={githubIcon} alt="GitHub" />
+//               </a>
+//             </div>
+//           </header>
+//           <div className="body">
+//             <h3>Kanban App</h3>
+//             <p>A modern Kanban Application built using React.js that helps users manage tasks efficiently with 
+//           drag-and-drop functionality. The application allows users to create, update, delete, and organize 
+//                tasks across different stages like To Do, In Progress, and Done. It provides a clean and responsive 
+//                  user interface for better productivity and task management.</p>
+//           </div>
+//         </motion.div>
+
+//       </motion.div>
+//     </Container>
+//   );
+// }
