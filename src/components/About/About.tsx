@@ -1,8 +1,8 @@
 import { Container } from "./styles";
 import vikalpbajpai from "../../assets/vikalp.webp";
-import python from "../../assets/python.svg"
+// import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
-import wordpress from "../../assets/wordpress.svg";
+// import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
